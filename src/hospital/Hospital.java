@@ -15,10 +15,6 @@ public class Hospital {
         
         Connection connection = DBHelper.getConnection();
         
-//        PelangganModel pelanggan = new PelangganModel();
-//        
-//        Pelanggan pelanggan1 = new Pelanggan("2217051087", "Jhon V Nababan", "tinonababan3@gmail.com");
-//        pelanggan.addPelanggan(pelanggan1);
     }
     
 }
