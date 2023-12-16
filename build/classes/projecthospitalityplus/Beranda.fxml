@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projecthospitalityplus.BerandaController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="743.0" fitWidth="610.0" layoutX="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/7849b1fd2994617922d48fe7e3649540.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="237.0" layoutY="174.0" text="Hospitality Plus" textFill="#95d189">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="46.0" fitWidth="66.0" layoutX="68.0" layoutY="94.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/WhatsApp%20Image%202023-12-15%20at%2018.24.05_85f51d98.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D minX="50.0" minY="50.0" />
+         </viewport>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <Label layoutX="106.0" layoutY="242.0" text="All Rooms" textFill="#f7f6f6">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="158.0" layoutY="99.0" prefHeight="35.0" prefWidth="307.0" />
+      <ImageView fitHeight="35.0" fitWidth="32.0" layoutX="433.0" layoutY="100.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/pngegg(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="40.0" layoutX="493.0" layoutY="94.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/e0e9bb4087b5770cd0c85ebd5d1e14f8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="318.0" layoutX="141.0" layoutY="285.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Screenshot%202023-12-15%20234239.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="318.0" layoutX="141.0" layoutY="452.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Screenshot%202023-12-15%20234357.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="318.0" layoutX="144.0" layoutY="639.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/imagesssss.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="66.0" layoutX="173.0" layoutY="639.0" opacity="0.43" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/kisspng-computer-icons-house-home-vector-graphics-symbol-va-awards-grants-for-adaptive-home-modifications-5b883275c749e9.7319150115356524698163.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="66.0" layoutX="349.0" layoutY="639.0" opacity="0.83" pickOnBounds="true">
+         <image>
+            <Image url="@images/pngegg(2).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

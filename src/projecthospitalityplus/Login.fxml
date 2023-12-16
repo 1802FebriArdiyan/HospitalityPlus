@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projecthospitalityplus.LoginController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="110.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="743.0" fitWidth="610.0" layoutX="-3.0" layoutY="-10.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/7849b1fd2994617922d48fe7e3649540.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="202.0" layoutY="40.0" pickOnBounds="true" rotate="-90.0">
+         <image>
+            <Image url="@images/pngegg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="227.0" layoutY="182.0" text="Hospitality Plus" textFill="#eae0e0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="96.0" fitWidth="114.0" layoutX="252.0" layoutY="75.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/WhatsApp%20Image%202023-12-15%20at%2018.24.05_85f51d98.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D minX="50.0" minY="50.0" />
+         </viewport>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <PasswordField fx:id="fieldPassword" layoutX="201.0" layoutY="383.0" prefHeight="26.0" prefWidth="215.0" />
+      <Label layoutX="201.0" layoutY="356.0" text="Password" textFill="#e1d8d8">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="289.0" text="Username" textFill="#f7f6f6">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldName" layoutX="202.0" layoutY="316.0" prefHeight="26.0" prefWidth="215.0" />
+      <Label layoutX="256.0" layoutY="572.0" text="Forgot Password?" textFill="#f2efef">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="597.0" text="Don't have an account?" textFill="#f2efef">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="653.0" text="By Continue I agree with the therm of service " textFill="#f4efef" />
+      <Label layoutX="247.0" layoutY="671.0" text="and privacy policy" textFill="#f4efef" />
+      <Button fx:id="btnMasuk" layoutX="256.0" layoutY="440.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="40.0" prefWidth="76.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDaftar" layoutX="352.0" layoutY="595.0" mnemonicParsing="false" onAction="#btnSignUp" prefHeight="26.0" prefWidth="76.0" text="SignUp">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
